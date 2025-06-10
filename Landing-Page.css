@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.logo {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* LINKS NOT GOING AWAY, FIX LATER */
+.right-links { 
+  text-decoration: none;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* COLOR NOT SHOWING, FIGURE OUT LATER */
+.signup-button {
+    color:#3882f6
+}
+
+.call-to-action-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    background-color: #e5e7eb
+}
+
+.banner {
+    background-color: rgb(0, 145, 255)
+}
+
+.banner-text {
+    color: white;
+}
+
+/* EXAMINE LATER */
+.banner-button {
+    color: white;
+}
+
+.footer-text{
+    color: rgba(255, 255, 255, 0.712);
+}
