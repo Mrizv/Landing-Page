@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto';
 }
 
 .header,
@@ -8,15 +9,37 @@
   background-color: #1f2937;
 }
 
-.logo {
-  font-family: Roboto;
-  font-size: 24px;
-  color: #f9faf8;
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-/* LINKS NOT GOING AWAY, FIX LATER */
-.right-links { 
+.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 150px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.right-links{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.right-links a { 
   text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .hero-main-text {
