@@ -79,10 +79,31 @@ ul {
     height: 210px;
 }
 
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
 .call-to-action-text {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin: 50px;
+}
+
+.call-to-action-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    border: blue;
+}
+
+.call-to-action-images p {
+    margin: auto;
+    text-align: center;
+    max-width: 140px;
 }
 
 .quote-text{
