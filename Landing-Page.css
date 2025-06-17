@@ -106,12 +106,30 @@ ul {
     max-width: 140px;
 }
 
-.quote-text{
+.quote-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
-    background-color: #e5e7eb
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+}
+
+.quote-text {
+    max-width: 750px;
+}
+
+.quote-text .signature {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
 }
 
 .banner {
